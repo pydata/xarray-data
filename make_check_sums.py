@@ -8,8 +8,7 @@ from xarray.tutorial import file_md5_checksum
 def main():
     files = glob.glob('*.nc')
     for ncf in files:
-        prefix = ncf.split('.')[0]
-        outf = '{}.md5'.format(prefix)
+        outf = '{}.md5'.format(ncf)
         with open(outf, 'w') as f:
             f.write(file_md5_checksum(ncf))
 

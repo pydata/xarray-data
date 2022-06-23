@@ -1,2 +1,2 @@
- - [ ] updated the docstring for `xarray.tutorial.load_dataset`
+ - [ ] updated the docstring for `xarray.tutorial.open_dataset`
 

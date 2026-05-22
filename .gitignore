@@ -1,0 +1,4 @@
+pages
+
+# .gribs generate index files that we don't want to track
+*.idx
